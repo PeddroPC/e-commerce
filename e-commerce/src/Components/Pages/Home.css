@@ -1,0 +1,38 @@
+/* Adicione estilos aqui */
+.card{
+    display: flex;
+}
+
+.container {
+  text-align: center;
+  padding: 10px;
+  margin: 25px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 250px;
+  max-height: 360px;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+
+}
+
+p {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 20px;
+  max-height: 200px;
+  overflow: hidden;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+
+}
